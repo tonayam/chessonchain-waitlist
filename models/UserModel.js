@@ -18,7 +18,6 @@ const UserSchema = new mongoose.Schema(
     },
     projectSuggestion: {
       type: String,
-      required: [true, `Please provide a project suggestion`],
     },
   },
   { timestamps: true }
